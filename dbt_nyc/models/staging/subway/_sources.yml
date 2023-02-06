@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: subway
+    description: NYC Subway data
+    project: bigquery-public-data
+    dataset: new_york_subway
+
+    tables:
+      - name: routes
+        description: List of all unique individual subway routes.
