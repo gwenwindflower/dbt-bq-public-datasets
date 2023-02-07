@@ -13,7 +13,7 @@ renamed as (
         route_short_name,
         route_long_name,
         route_describe as description,
-        route_type
+        route_type,
 
     from source
 

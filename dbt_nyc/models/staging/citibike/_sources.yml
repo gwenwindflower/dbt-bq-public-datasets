@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: citibike
+    description: NYC Citibike trips and stations
+    project: bigquery-public-data
+    dataset: new_york_citibike
+    tables:
+      - name: citibike_stations
+      - name: citibike_trips
