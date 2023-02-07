@@ -5,7 +5,21 @@ sources:
     description: NYC Subway data
     project: bigquery-public-data
     dataset: new_york_subway
-
     tables:
       - name: routes
         description: List of all unique individual subway routes.
+      - name: station_complexes
+      - name: station_entrances
+      - name: stations
+      - name: stop_times
+      - name: trips
+      - name: geo_nyc_borough_boundaries
+      - name: subway_ridership_2013_presents
+
+  - name: citibike
+    description: NYC Citibike trips and stations
+    project: bigquery-public-data
+    dataset: new_york_citibike
+    tables:
+      - name: citibike_stations
+      - name: citibike_trips
