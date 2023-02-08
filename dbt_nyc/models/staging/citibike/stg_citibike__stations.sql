@@ -9,7 +9,7 @@ source as (
 renamed as (
 
     select
-        station_id,
+        cast(station_id as string) as station_id,
         name,
         short_name,
         latitude,

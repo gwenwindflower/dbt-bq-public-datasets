@@ -12,8 +12,8 @@ renamed as (
         -- ids
         {{ dbt_utils.generate_surrogate_key(['bikeid', 'starttime', 'stoptime']) }} as trip_id,
         bikeid as bike_id,
-        start_station_id,
-        end_station_id,
+        cast(start_station_id as string) as start_station_id,
+        cast(end_station_id as string) as end_station_id,
         
         -- numeric
         tripduration as trip_duration,
