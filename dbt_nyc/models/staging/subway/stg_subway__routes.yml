@@ -1,0 +1,29 @@
+version: 2
+models:
+  - name: stg_subway__routes
+    columns:
+      - name: route_id
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: route_short_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: route_long_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: description
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: route_type
+        description: ""
+        meta:
+          dimension:
+            type: string

@@ -1,0 +1,94 @@
+version: 2
+models:
+  - name: stg_citibike__stations
+    columns:
+      - name: station_id
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: short_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: latitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: longitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: region_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: rental_methods
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: capacity
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: eightd_has_key_dispenser
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: num_bikes_available
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: num_bikes_disabled
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: num_docks_available
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: num_docks_disabled
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: is_installed
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_renting
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: is_returning
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: eightd_has_available_keys
+        description: ""
+        meta:
+          dimension:
+            type: boolean
+      - name: last_reported
+        description: ""
+        meta:
+          dimension:
+            type: timestamp

@@ -1,0 +1,99 @@
+version: 2
+models:
+  - name: citibike_trips
+    columns:
+      - name: trip_id
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: bike_id
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: start_station_id
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: end_station_id
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: trip_duration
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: birth_year
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: start_station_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: end_station_name
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: user_type
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: gender
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: customer_plan
+        description: ""
+        meta:
+          dimension:
+            type: string
+      - name: start_station_latitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: start_station_longitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: end_station_latitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: end_station_longitude
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: start_time
+        description: ""
+        meta:
+          dimension:
+            type: timestamp
+      - name: stop_time
+        description: ""
+        meta:
+          dimension:
+            type: timestamp
+      - name: start_station_num_bikes_available
+        description: ""
+        meta:
+          dimension:
+            type: number
+      - name: end_station_num_bikes_available
+        description: ""
+        meta:
+          dimension:
+            type: number
